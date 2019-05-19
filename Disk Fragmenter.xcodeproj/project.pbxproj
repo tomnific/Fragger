@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2511FBA228367DD00E77F92 /* fragmenter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2511FB8228367DD00E77F92 /* fragmenter.cpp */; };
+		E2B2BE552281461900B73E3B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B2BE542281461900B73E3B /* main.cpp */; };
+		E2B2BE622281468500B73E3B /* stdtom.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B2BE5E2281468400B73E3B /* stdtom.cpp */; };
+		E2B2BE632281468500B73E3B /* fatutils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E2B2BE602281468500B73E3B /* fatutils.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2B2BE4F2281461900B73E3B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E2511FB8228367DD00E77F92 /* fragmenter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = fragmenter.cpp; sourceTree = "<group>"; };
+		E2511FB9228367DD00E77F92 /* fragmenter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = fragmenter.hpp; sourceTree = "<group>"; };
+		E2B2BE512281461900B73E3B /* fragger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fragger; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2B2BE542281461900B73E3B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		E2B2BE5D2281468400B73E3B /* stdtom.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = stdtom.hpp; sourceTree = "<group>"; };
+		E2B2BE5E2281468400B73E3B /* stdtom.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = stdtom.cpp; sourceTree = "<group>"; };
+		E2B2BE602281468500B73E3B /* fatutils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = fatutils.cpp; sourceTree = "<group>"; };
+		E2B2BE612281468500B73E3B /* fatutils.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = fatutils.hpp; sourceTree = "<group>"; };
+		E2B2BE64228146DE00B73E3B /* build.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2B2BE4E2281461900B73E3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2B2BE482281461900B73E3B = {
+			isa = PBXGroup;
+			children = (
+				E2B2BE532281461900B73E3B /* Disk Fragmenter */,
+				E2B2BE522281461900B73E3B /* Products */,
+				E2B2BE64228146DE00B73E3B /* build.sh */,
+			);
+			sourceTree = "<group>";
+		};
+		E2B2BE522281461900B73E3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2BE512281461900B73E3B /* fragger */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2B2BE532281461900B73E3B /* Disk Fragmenter */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2BE5B2281462A00B73E3B /* include */,
+				E2B2BE542281461900B73E3B /* main.cpp */,
+				E2511FB8228367DD00E77F92 /* fragmenter.cpp */,
+				E2511FB9228367DD00E77F92 /* fragmenter.hpp */,
+			);
+			path = "Disk Fragmenter";
+			sourceTree = "<group>";
+		};
+		E2B2BE5B2281462A00B73E3B /* include */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2BE5F2281468500B73E3B /* fatutils */,
+				E2B2BE5C2281468400B73E3B /* stdtom */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		E2B2BE5C2281468400B73E3B /* stdtom */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2BE5D2281468400B73E3B /* stdtom.hpp */,
+				E2B2BE5E2281468400B73E3B /* stdtom.cpp */,
+			);
+			path = stdtom;
+			sourceTree = "<group>";
+		};
+		E2B2BE5F2281468500B73E3B /* fatutils */ = {
+			isa = PBXGroup;
+			children = (
+				E2B2BE602281468500B73E3B /* fatutils.cpp */,
+				E2B2BE612281468500B73E3B /* fatutils.hpp */,
+			);
+			path = fatutils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2B2BE502281461900B73E3B /* Disk Fragmenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2B2BE582281461900B73E3B /* Build configuration list for PBXNativeTarget "Disk Fragmenter" */;
+			buildPhases = (
+				E2B2BE4D2281461900B73E3B /* Sources */,
+				E2B2BE4E2281461900B73E3B /* Frameworks */,
+				E2B2BE4F2281461900B73E3B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Disk Fragmenter";
+			productName = "Disk Fragmenter";
+			productReference = E2B2BE512281461900B73E3B /* fragger */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2B2BE492281461900B73E3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Tom;
+				TargetAttributes = {
+					E2B2BE502281461900B73E3B = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = E2B2BE4C2281461900B73E3B /* Build configuration list for PBXProject "Disk Fragmenter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E2B2BE482281461900B73E3B;
+			productRefGroup = E2B2BE522281461900B73E3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2B2BE502281461900B73E3B /* Disk Fragmenter */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2B2BE4D2281461900B73E3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2B2BE622281468500B73E3B /* stdtom.cpp in Sources */,
+				E2B2BE552281461900B73E3B /* main.cpp in Sources */,
+				E2511FBA228367DD00E77F92 /* fragmenter.cpp in Sources */,
+				E2B2BE632281468500B73E3B /* fatutils.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E2B2BE562281461900B73E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		E2B2BE572281461900B73E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		E2B2BE592281461900B73E3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7RS77BY9N;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+					DEBUG,
+					__XCODE__,
+				);
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Disk Fragmenter/include\"";
+				PRODUCT_NAME = fragger;
+			};
+			name = Debug;
+		};
+		E2B2BE5A2281461900B73E3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U7RS77BY9N;
+				HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Disk Fragmenter/include\"";
+				PRODUCT_NAME = fragger;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2B2BE4C2281461900B73E3B /* Build configuration list for PBXProject "Disk Fragmenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B2BE562281461900B73E3B /* Debug */,
+				E2B2BE572281461900B73E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2B2BE582281461900B73E3B /* Build configuration list for PBXNativeTarget "Disk Fragmenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2B2BE592281461900B73E3B /* Debug */,
+				E2B2BE5A2281461900B73E3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2B2BE492281461900B73E3B /* Project object */;
+}
